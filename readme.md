@@ -18,7 +18,7 @@ Set the User environment variable `PROMPT`.
 $e[32m%USERNAME%$e[0m@$e[32m%COMPUTERNAME%$e[0m$s$e[34m$p$e[0m$s
 ```
 
-Start the terminal and press `CTRL+,` to modify [settings](https://aka.ms/terminal).
+Install and start [Windows Terminal](https://aka.ms/terminal), then press `CTRL+,` to open settings.
 
 ```js
 {
