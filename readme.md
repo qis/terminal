@@ -1,24 +1,21 @@
 # Terminal
 1. Check out this repository.
-2. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font.
-3. Right-click on [links/Console.lnk](Console.lnk) and select "Pin to Start".
-4. Right-click on [links/Terminal.lnk](Terminal.lnk) and select "Pin to Start".
-5. Execute [register.cmd](register.cmd) as Administrator.
+2. Install [Windows Terminal](https://aka.ms/terminal).
+3. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font.
+4. Right-click on [links/Console.lnk](Console.lnk) and select "Pin to Start".
+5. Right-click on [links/Terminal.lnk](Terminal.lnk) and select "Pin to Start".
+6. Execute [register.cmd](register.cmd) as Administrator.
 
-## Settings
-Set the User environment variable `USERNAME`.
-
-```
-qis
-```
-
-Set the User environment variable `PROMPT`.
+## Environment
+1. Set the User environment variable `USERNAME`.
+2. Set the User environment variable `PROMPT`.
 
 ```
 $e[32m%USERNAME%$e[0m@$e[32m%COMPUTERNAME%$e[0m$s$e[34m$p$e[0m$s
 ```
 
-Install and start [Windows Terminal](https://aka.ms/terminal), then press `CTRL+,` to open settings.
+## Configure
+Press `CTRL+,` to open settings.
 
 ```js
 {
