@@ -1,6 +1,6 @@
 # Terminal
 1. Check out this repository as `%UserProfile%/.terminal`.
-2. Install `DejaVu LGC Sans Mono` font or update [settings.json](settings.json).
+2. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font or update [settings.json](settings.json).
 3. Right-click on [links/Console.lnk](Console.lnk) and select "Pin to Start".
 4. Right-click on [links/Terminal.lnk](Terminal.lnk) and select "Pin to Start".
 5. Execute [register.cmd](register.cmd) as Administrator.
