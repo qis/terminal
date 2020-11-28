@@ -1,6 +1,6 @@
 # Terminal
-1. Check out this repository as `%UserProfile%/.terminal`.
-2. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font or update [settings.json](settings.json).
+1. Check out this repository.
+2. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font.
 3. Right-click on [links/Console.lnk](Console.lnk) and select "Pin to Start".
 4. Right-click on [links/Terminal.lnk](Terminal.lnk) and select "Pin to Start".
 5. Execute [register.cmd](register.cmd) as Administrator.
@@ -20,7 +20,7 @@ $e[32m%USERNAME%$e[0m@$e[32m%COMPUTERNAME%$e[0m$s$e[34m$p$e[0m$s
 
 Start the terminal and press `CTRL+,` to modify [settings](https://aka.ms/terminal).
 
-```json
+```js
 {
   // https://aka.ms/terminal-global-settings
   "$schema": "https://aka.ms/terminal-profiles-schema",
