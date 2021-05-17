@@ -2,7 +2,7 @@
 
 set shell=HKCU\Software\Classes\Directory\Background\shell
 
-set consoletxt=Open in Console
+set consoletxt=Open with Console
 set consoleico=%~dp0icons\console.ico
 set consolecmd=\"%LocalAppData%\Microsoft\WindowsApps\wt.exe\" -p Console -d .
 
@@ -10,7 +10,7 @@ reg add "%shell%\x-console" /ve /d "%consoletxt%" /f
 reg add "%shell%\x-console" /v Icon /d "%consoleico%" /f
 reg add "%shell%\x-console\command" /ve /d "%consolecmd%" /f
 
-set terminaltxt=Open in Terminal
+set terminaltxt=Open with Terminal
 set terminalico=%~dp0icons\terminal.ico
 set terminalcmd=\"%LocalAppData%\Microsoft\WindowsApps\wt.exe\" -p Terminal -d .
 
