@@ -43,7 +43,7 @@ Press `CTRL+,` to open settings.
       "fontSize": 9,
       "useAcrylic": false,
       "acrylicOpacity": 1,
-      "colorScheme": "default",
+      "colorScheme": "onedark",
       "cursorShape": "vintage",
       "closeOnExit": "always",
       "cursorHeight": 25
@@ -81,26 +81,27 @@ Press `CTRL+,` to open settings.
   // https://aka.ms/terminal-color-schemes
   "schemes": [
     {
-      "name": "default",
-      "black": "#1e1e1e",
-      "red": "#ff615a",
-      "green": "#b1e969",
-      "yellow": "#ebd99c",
-      "blue": "#5da9f6",
-      "purple": "#e86aff",
-      "cyan": "#82fff7",
-      "white": "#dcdcdc",
-      "brightBlack": "#787878",
-      "brightRed": "#f58c80",
-      "brightGreen": "#ddf88f",
-      "brightYellow": "#eee5b2",
-      "brightBlue": "#a5c7ff",
-      "brightPurple": "#ddaaff",
-      "brightCyan": "#b7fff9",
-      "brightWhite": "#ffffff",
-      "cursorColor": "#dcdcdc",
-      "background": "#1e1e1e",
-      "foreground": "#dcdcdc"
+      "name":         "onedark",
+      "black":        "#282C34",  // 00
+      "red":          "#E06C75",  // 01
+      "green":        "#98C379",  // 02
+      "yellow":       "#E5C07B",  // 03
+      "blue":         "#61AFEF",  // 04
+      "purple":       "#C678DD",  // 05
+      "cyan":         "#56B6C2",  // 06
+      "white":        "#ABB2BF",  // 07
+      "brightBlack":  "#3E4452",  // 08
+      "brightRed":    "#E06C75",  // 09 -> 01
+      "brightGreen":  "#98C379",  // 10 -> 02
+      "brightYellow": "#E5C07B",  // 11 -> 03
+      "brightBlue":   "#61AFEF",  // 12 -> 04
+      "brightPurple": "#C678DD",  // 13 -> 05
+      "brightCyan":   "#56B6C2",  // 14 -> 06
+      "brightWhite":  "#BFC5CE",  // 15
+      "background":   "#181818",  // BG
+      "foreground":   "#ABB2BF",  // FG -> 07
+      "cursorColor":  "#ABB2BF",  // CC -> FG
+      "selectionBackground": "#ABB2BF",
     }
   ],
 
