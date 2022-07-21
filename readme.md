@@ -57,9 +57,10 @@ Press `CTRL+,` to open settings.
       },
       {
         "name": "Terminal",
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "guid": "{c45198bf-3092-4e80-a625-de91ee73dc2a}",
         "icon": "C:\\Users\\Qis\\.terminal\\icons\\terminal.ico",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "C:\\Windows\\system32\\wsl.exe -d Debian",
+        "startingDirectory": "~",
         "hidden": false
       },
       {
