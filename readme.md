@@ -22,7 +22,7 @@ Press `CTRL+,` to open settings.
 
 ```js
 {
-  // https://aka.ms/terminal-global-settings
+  "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
 
@@ -35,7 +35,6 @@ Press `CTRL+,` to open settings.
   "initialCols": 150,
   "initialRows": 45,
 
-  // https://aka.ms/terminal-profile-settings
   "profiles": {
     "defaults": {
       "padding": "4, 3, 4, 3",
@@ -64,6 +63,12 @@ Press `CTRL+,` to open settings.
         "hidden": false
       },
       {
+        "name": "Developer Command Prompt for VS 2022",
+        "guid": "{e6a37dec-d9fe-5c05-8749-52a9ce91afd7}",
+        "source": "Windows.Terminal.VisualStudio",
+        "hidden": false
+      },
+      {
         "name": "PowerShell",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "commandline": "powershell.exe",
@@ -89,7 +94,7 @@ Press `CTRL+,` to open settings.
       "blue":         "#61AFEF",  // 04
       "purple":       "#C678DD",  // 05
       "cyan":         "#56B6C2",  // 06
-      "white":        "#ABB2BF",  // 07
+      "white":        "#C6C6C6",  // 07
       "brightBlack":  "#3E4452",  // 08
       "brightRed":    "#E06C75",  // 09 -> 01
       "brightGreen":  "#98C379",  // 10 -> 02
@@ -97,35 +102,15 @@ Press `CTRL+,` to open settings.
       "brightBlue":   "#61AFEF",  // 12 -> 04
       "brightPurple": "#C678DD",  // 13 -> 05
       "brightCyan":   "#56B6C2",  // 14 -> 06
-      "brightWhite":  "#BFC5CE",  // 15
-      "background":   "#181818",  // BG
-      "foreground":   "#ABB2BF",  // FG -> 07
-      "cursorColor":  "#ABB2BF",  // CC -> FG
-      "selectionBackground": "#ABB2BF",
+      "brightWhite":  "#F0F0F0",  // 15
+      "background":   "#262626",  // BG
+      "foreground":   "#C6C6C6",  // FG -> 07
+      "cursorColor":  "#C6C6C6",  // CC -> FG
+      "selectionBackground": "#ABB2BF"
     }
   ],
 
-  // https://aka.ms/terminal-keybindings
-  "keybindings": [
-    // Pane: Split
-    { "command": { "action": "splitPane", "split": "horizontal"}, "keys": "ctrl+shift+-" },
-    { "command": { "action": "splitPane", "split": "vertical"}, "keys": "ctrl+shift+plus" },
-
-    // Pane: Close
-    { "command": "closePane", "keys": "ctrl+shift+w" },
-
-    // Pane: Resize
-    { "command": { "action": "resizePane", "direction": "down" }, "keys": "alt+shift+down" },
-    { "command": { "action": "resizePane", "direction": "left" }, "keys": "alt+shift+left" },
-    { "command": { "action": "resizePane", "direction": "right" }, "keys": "alt+shift+right" },
-    { "command": { "action": "resizePane", "direction": "up" }, "keys": "alt+shift+up" },
-
-    // Pane: Focus
-    { "command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+down" },
-    { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+left" },
-    { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+right" },
-    { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+up" },
-
+  "actions": [
     // Scroll
     { "command": "scrollUp", "keys": "shift+up" },
     { "command": "scrollDown", "keys": "shift+down" },
@@ -133,14 +118,25 @@ Press `CTRL+,` to open settings.
     { "command": "scrollDownPage", "keys": "shift+pagedown" },
 
     // Window
-    { "command": "toggleFullscreen", "keys": "f11" },
-    { "command": "toggleFocusMode", "keys": "f12" },
-
-    // Tabs
-    { "command": "openNewTabDropdown", "keys": "ctrl+shift+space" },
+    { "command": "toggleFullscreen", "keys": "shift+f11" },
+    { "command": "toggleFocusMode", "keys": "shift+f12" },
 
     // Settings
-    { "command": "openSettings", "keys": "ctrl+," }
+    { "command": "openSettings", "keys": "ctrl+," },
+
+    // Function
+    { "command": null, "keys": "f1" },
+    { "command": null, "keys": "f2" },
+    { "command": null, "keys": "f3" },
+    { "command": null, "keys": "f4" },
+    { "command": null, "keys": "f5" },
+    { "command": null, "keys": "f6" },
+    { "command": null, "keys": "f7" },
+    { "command": null, "keys": "f8" },
+    { "command": null, "keys": "f9" },
+    { "command": null, "keys": "f10" },
+    { "command": null, "keys": "f11" },
+    { "command": null, "keys": "f12" }
   ]
 }
 ```
