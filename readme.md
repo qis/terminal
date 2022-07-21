@@ -1,7 +1,7 @@
 # Terminal
 1. Check out this repository.
-2. Install [Windows Terminal](https://aka.ms/terminal).
-3. Install [DejaVu LGC Sans Mono](https://dejavu-fonts.github.io/) font.
+2. Install [Patched Fonts](https://github.com/qis/fonts/releases).
+3. Install [Windows Terminal](https://aka.ms/terminal).
 4. Right-click on [links/Console.lnk](Console.lnk) and select "Pin to Start".
 5. Right-click on [links/Terminal.lnk](Terminal.lnk) and select "Pin to Start".
 6. Execute [register.cmd](register.cmd) as Administrator.
@@ -38,7 +38,7 @@ Press `CTRL+,` to open settings.
   "profiles": {
     "defaults": {
       "padding": "4, 3, 4, 3",
-      "fontFace": "DejaVu LGC Sans Mono",
+      "fontFace": "DejaVuSansMono NF",
       "fontSize": 9,
       "useAcrylic": false,
       "acrylicOpacity": 1,
